@@ -1,0 +1,927 @@
+@import url('./fonts.css');
+@import url('./reset.css');
+@import url('./skip.css');
+
+#wrap{
+    width: 100%;
+    max-width: 1910px;
+    overflow: hidden;
+    #header {
+    width: 100%;
+        width: 100%;
+        .title-img {
+            width: 100%;
+            height: 271.297px;
+            position: relative;
+            img {
+                background-size: cover;
+            }
+        }
+        .title-box1 {
+            width: 100%;
+            .gap {            
+            height: 100%;
+            margin: 0 315px;
+                .content {
+                    width: 100%;
+                    height: 40.5px;
+                    .log {
+                        display: flex;
+                        float: right;
+                        li {
+                            a {
+                                padding: 0 10px;
+                                font-size: 13px;
+                                font-weight: 500;
+                                line-height: 40px;
+                                color: #a7a9ac;
+                                transition: all 0.2s;
+                                border-right: 1px solid #a7a9ac;
+                                &:hover {
+                                    color: #683b28;
+                                }
+                                &.on {
+                                    color: #683b28;
+                                }
+                                &::before {
+                                    content: '';
+                                    position: absolute;
+                                    background: #000;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .title-box2 {
+            width: 100%;
+            height: 47px;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            .gap {
+                height: 100%;
+                margin: 0 315px;
+                display: flex;
+                justify-content: space-between;
+                .left-box {
+                    width: auto;
+                    height: 100%;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    margin-right: 200px;
+                    .category {
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        li {
+                            position: relative;
+                            width: 130px;
+                            height: 100%;
+                            text-align: center;
+                            &:first-child {
+                                a {
+                                    color: #87553d;
+                                }
+                            }            
+                                .hamberger {
+                                    display: inline;
+                                    i {
+                                        position: absolute;
+                                        left: 0;
+                                        bottom: 35%;
+                                        width: 17px;
+                                        border: 1.5px solid #87553d;
+                                        display: flex;
+                                        &:nth-child(2) {
+                                            bottom: 45%;
+                                        }
+                                        &:nth-child(3) {
+                                            bottom: 55%;
+                                        }
+                                    }
+                            }
+                            
+                            a {
+                                font-size: 15px;
+                                font-weight: 500;
+                                line-height: 45px;
+                                font-family: 'Noto Sans KR';
+                                color: rgb(128, 130, 133);
+                                &:hover {
+                                    color: #683b28;
+                                }
+                                &.on {
+                                    color: #683b28;
+                                }
+                            }
+                        }
+                    }
+                }
+                .right-box {
+                    width: auto;
+                    height: 100%;                    
+                    color: #683b28;
+                    display: flex;
+                    align-items: center;
+
+                    .search {
+                        width: 100%;
+                        display: flex;
+                        li {   
+
+                            > div {
+                                width: 230px;                                
+                                form {
+                                    width:100%;
+                                    input {
+                                        width: 100%;
+                                        height: 30px;
+                                        background: #f0f0f0 url(../img/search.png) no-repeat 92% 50%;
+                                        background-size: 20px 20px;
+                                        color:#333;
+                                        font-size: 14px;
+                                        padding: 0 45px 0 20px;
+                                        border-radius: 15px;  
+                                        border: 0;    
+                                        outline: 0;                                  
+                                    }
+                                }   
+                            }                  
+                            a {
+
+                                img {
+                                    width: 27px;
+
+                                }
+
+                            }                                               
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #main {
+        width: 100%;
+        position: relative;
+        #section1 {
+            width: 100%;
+            img {
+                background-size: cover;
+            }
+        }
+        #section2 {
+            width: 100%;
+            margin: 50px 0;
+            .list {
+                display: flex;
+                width: 284px;
+                height: 46px;
+                margin: -50px 324px 0 0 ;
+                float: right;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                &:hover {
+                    cursor: auto;
+                }             
+                .txt-box {
+                    width: 50%;
+                    text-align: center;
+                    align-items: center;
+                    p {
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: #683b28;
+
+                    }
+                }
+                .list-box {
+
+                    text-align: center;
+                    align-items: center;
+                    display: flex;
+                    p {
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: #87553d;
+                        font-family: "MontserratR";
+                    }
+
+                        span {
+
+                        }
+                    
+                }
+                div {
+                    padding: 0 0 0 25px;
+                    select {
+                        border: 0;
+                        background-color: #fff;
+                        option {
+                             p {
+                                width: 100%;
+                                font-size: 14px;
+                                font-weight: 700;
+                                color: #555;
+                                line-height: 46px;
+                                padding: 0 0 0 55px;
+                                text-align: left;                            
+                            }
+                        }
+                    }
+                }
+            }
+            .containor {
+                margin: 0 300px;
+                .gap {
+                    width: 100%;
+                    text-align: center;
+                    .title {
+                        margin: 0 0 30px 0;
+                        h1 {
+                            font-size: 40px;
+                            font-weight: 500;
+                            line-height: 45px;
+                            color: #683b28;
+                        }
+                    }
+                    .content {
+                        width: 100%;
+                        ul {
+                            display: flex;
+                            li {
+                                margin: 0 25.594px 30px 0;
+                                display: block;    
+                                &:last-child{
+                                    margin-right: 0;
+                                }                            
+                                img {
+                                    width: 100%;
+                                }
+                                .txt-box {
+                                    margin: 15px 0 0 0;
+                                    position: relative;
+                                    .top-txt {
+                                        margin: 5px 0 0 0;
+                                        h2 {
+                                        font-size: 20px;
+                                        font-weight: 400;
+                                        text-align: left;
+                                        font-family: 'Noto Sans KR';
+                                        color: #2e2e2e;                                            
+                                        }
+                                    }
+                                    .bottom-txt {
+                                        margin: 0 0 0 5px;
+                                        h1 {
+                                         font-size: 22px;
+                                        font-weight: 700;
+                                        text-align: left;
+                                        vertical-align: middle;
+                                        color: #683b28;
+                                        margin: 6px 0 0 5px; 
+                                        font-family: 'Noto Sans KR';                                       
+                                        }
+                                    }
+                                    .icon {
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        a {
+                                        
+                                            img {
+                                            width: 100%;
+                                            margin: 0 auto; 
+                                                                                
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #section3 {
+            width: 100%;
+            padding: 50px 0;
+            background-color: #ebe0d2;
+            .containor {
+                margin: 0 300px;
+                .gap {
+                    width: 100%;
+
+                    .title {
+                        margin: 0 0 30px 0;
+                        display: flex;
+                        justify-content: center;
+                        h1 {
+                            text-align: center;
+                            font-size: 40px;
+                            font-weight: 500;
+                            line-height: 45px;
+                            color: #683b28;
+                        }
+                        span {
+                            position: absolute;
+                            right: 16%;
+                            margin: 0 0 0 30px;
+                            a {
+                                color: #939598;
+                                font-size: 16px;
+                                line-height: 45px;
+                                &:hover {
+                                    color: #000;
+                                }
+                            }
+
+                        }
+                    }
+                    .content {
+                        width: 100%;
+                        ul {
+                            display: flex;
+                            li {
+                                margin: 0 25.594px 30px 0;
+                                display: block;   
+                                &:last-child {
+                                    margin-right: 0;
+                                }                             
+                                img {
+                                    width: 100%;
+                                }
+                                .txt-box {
+                                    margin: 15px 0 0 0;
+                                    position: relative;
+                                    .top-txt {
+                                        margin: 5px 0 0 0;
+                                        h2 {
+                                        font-size: 20px;
+                                        font-weight: 400;
+                                        text-align: left;
+                                        font-family: 'Noto Sans KR';
+                                        color: #2e2e2e;                                            
+                                        }
+                                    }
+                                    .bottom-txt {
+                                        margin: 0 0 0 5px;
+                                        h1 {
+                                         font-size: 22px;
+                                        font-weight: 700;
+                                        text-align: left;
+                                        vertical-align: middle;
+                                        color: #683b28;
+                                        margin: 6px 0 0 5px; 
+                                        font-family: 'Noto Sans KR';                                       
+                                        }
+                                    }
+                                    .icon {
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        a {                                 
+                                            img {
+                                                width: 100%;
+                                                margin: 0 auto;                                                                             
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+        #section4 {
+            width: 100%;
+            padding: 50px 0;
+            .containor {
+                margin: 0 300px;
+                .gap {
+                    width: 100%;
+                    text-align: center;
+                    .title {
+                        margin: 0 0 30px 0;
+                        display: flex;
+                        justify-content: center;
+                        h1 {
+                            text-align: center;
+                            font-size: 40px;
+                            font-weight: 500;
+                            line-height: 45px;
+                            color: #683b28;
+                        }
+                        span {
+                            position: absolute;
+                            right: 16%;
+                            margin: 0 0 0 30px;
+                            a {
+                                color: #939598;
+                                font-size: 16px;
+                                line-height: 45px;
+                                &:hover {
+                                    color: #000;
+                                }
+                            }
+
+                        }
+                    }
+                    .content {
+                        width: 100%;
+                        ul {
+                            display: flex;
+                            li {
+                                margin: 0 25.594px 30px 0;
+                                display: block;     
+                                &:last-child {
+                                    margin-right: 0;
+                                }                           
+                                img {
+                                    width: 100%;
+                                }
+                                .txt-box {
+                                    margin: 15px 0 0 0;
+                                    position: relative;
+                                    .top-txt {
+                                        margin: 5px 0 0 0;
+                                        h2 {
+                                        font-size: 20px;
+                                        font-weight: 400;
+                                        text-align: left;
+                                        font-family: 'Noto Sans KR';
+                                        color: #2e2e2e;                                            
+                                        }
+                                    }
+                                    .bottom-txt {
+                                        margin: 0 0 0 5px;
+                                        h1 {
+                                         font-size: 22px;
+                                        font-weight: 700;
+                                        text-align: left;
+                                        vertical-align: middle;
+                                        color: #683b28;
+                                        margin: 6px 0 0 5px; 
+                                        font-family: 'Noto Sans KR';                                       
+                                        }
+                                    }
+                                    .icon {
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        a {
+                                        
+                                            img {
+                                            width: 100%;
+                                            margin: 0 auto; 
+                                                                                
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }            
+        }
+        #section5 {
+            width: 100%;
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    
+                }
+            }
+        }
+        #section6 {
+            width: 100%;
+            padding: 60px 0;
+            .containor {
+                margin: 0 300px;
+                .gap {
+                    width: 100%;
+                    text-align: center;
+
+                    .title {
+                        margin: 0 0 30px 0;
+                        display: flex;
+                        justify-content: center;
+                        h1 {
+                            text-align: center;
+                            font-size: 40px;
+                            font-weight: 500;
+                            line-height: 45px;
+                            color: #683b28;
+                        }
+                        span {
+                            position: absolute;
+                            right: 16%;
+                            margin: 0 0 0 30px;
+                            a {
+                                color: #939598;
+                                font-size: 16px;
+                                line-height: 45px;
+                                &:hover {
+                                    color: #000;
+                                }
+                            }
+
+                        }
+                    }
+                    .post {
+                        width: 100%;
+                        ul {
+
+                            display: flex;
+
+                            li {
+                                width: 100%;
+                                display: flex;
+                                text-align: center;
+                                justify-content: center;
+                                align-items: center;
+                                border: 1px solid #d4d5d7;     
+                                transition: all 0.2s ;    
+                                a {
+                                    display: flex;
+                                    font-size: 20px;
+                                    transition: all 0.2s;
+                                    color: #2e2e2e;
+                                    width:100%;
+                                    height: 48px;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background:#fff;
+                                    &:hover {
+                                        color: #fff;
+                                        cursor:pointer;
+                                        background-color: #563320;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .content {
+                        width: 100%;
+                        margin: 20px 0 0 0;
+                        ul {
+                            display: flex;
+
+                            li {
+                                margin: 0 25.594px 30px 0;
+                                display: block;   
+
+                                &:last-child {
+                                    margin-right: 0;
+                                }                     
+                                img {
+                                    width: 300PX
+                                }
+                                .txt-box {
+                                    position: relative;
+                                    margin: 15px 0 0 0;
+                                    .top-txt {
+                                        margin: 5px 0 0 0;
+                                        h2 {
+                                        font-size: 20px;
+                                        font-weight: 400;
+                                        text-align: left;
+                                        font-family: 'Noto Sans KR';
+                                        color: #2e2e2e;                                            
+                                        }
+                                    }
+                                    .bottom-txt {
+                                        margin: 0 0 0 5px;
+                                        h1 {
+                                         font-size: 22px;
+                                        font-weight: 700;
+                                        text-align: left;
+                                        vertical-align: middle;
+                                        color: #683b28;
+ 
+                                        font-family: 'Noto Sans KR';                                       
+                                        }
+                                    }                                           
+                                    .icon {                             
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        a {
+                                        img {
+                                            width: 100%;
+                                            margin: 0 auto;
+                                            }
+                                        }
+                                     
+                                    }
+
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }    
+        }
+        #section7 {
+            width: 100%;
+            padding: 50px 0;
+            .container {
+                margin: 0 300px;
+                .instar {
+                    margin: 0 0 40px 0;
+                    display: flex;
+                    img {
+                        margin: 0 15px 0 0 ;
+                        padding-bottom: 10px;
+                        width: 36px;
+                    }
+                    h1 {
+                        font-size: 40px;
+                        font-weight: 500;
+                        color: #683b28;
+                    }
+                    h2 {
+                        margin-left: 10px;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 45px;
+                        color: #683b28;
+                    }
+                    span {
+                        position: absolute;
+                        right: 16%;
+                        a {
+                            color: #939598;
+                            font-size: 16px;
+                            line-height: 45px;        
+                            &:hover {
+                                color: #000;
+                            }                    
+                        }
+                    }
+                }
+            }
+
+        }
+        #section8 {
+            width: 100%;
+            padding: 0 0 60px 0;
+            .container {
+                margin: 0 300px;
+                .gap {
+                    text-align: center;
+                    .title {
+                        width: 100%;
+                        display: inline-flex;
+                        margin-bottom: 40px;
+
+                        img {
+                        margin-right: 15px;
+                        padding-bottom: 5px;
+                        width: 36px;
+                        }
+                        h1 {
+                            font-size: 40px;
+                            font-weight: 500;
+                            color: #683b28;
+                        }
+                    }
+                    .content {
+                        width: 100%;
+                        ul {
+                            width: 100%;
+                            // position: absolute;
+                            display: flex;
+                            margin: 0 auto;
+                            justify-content: space-between;
+                            li {
+
+                                margin: 0 0 30px 3%;
+                                &:first-child {
+                                    margin-left: 0;
+                                }      
+                                a {
+                                    width: calc(100% / 6);
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #section9 {
+            width: 100%;
+            padding: 30px 0;
+            background-color: #f5f3ee;
+            .container {
+                margin: 0 300px;
+                display: flex;
+                justify-content: space-between;
+                .contentbox_1 {
+                    width: 15%;
+                    .call_number {
+                        h2 {
+                            margin-bottom: 10px;
+                            color: #683b28;
+                            font-size: 24px;
+                            font-weight: 700;
+                        }
+                        h1 {
+                            font-size: 36px;
+                            color: #87553d;
+                            font-weight: 700;
+                            margin-bottom: 10px;
+                        }
+                        span {
+                            font-size: 15px;
+                            color: #C4B09F;
+                        }
+                    }
+                }
+                .contentbox_2 {
+                    width: 14%;
+                    padding: 48px 0 0 0;
+                    ul {    
+                        padding-left: 33px;
+                        li {
+                            display: flex;
+                            margin: 0 0 10px 0;                           
+                            &:nth-of-type(1) {
+                                a {
+                                    color: #fff;
+                                    background-color: #87553D;
+                                }
+                            }
+                            a {
+                                width: 180px;
+                                position: relative;
+                                font-size: 16px;
+                                padding: 12px;
+                                border: 2px solid #87553D;
+                                border-radius: 5px;
+                                color: #87553d;  
+                                &::before {
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    width: 2px;
+                                    height: 12px;
+                                    top: 11px;
+                                    right: 8px;
+                                    background-color: #000;
+                                    transform: rotate(-45deg);
+                                }           
+                                &::after {
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    width: 2px;
+                                    height: 12px;
+                                    top: 18px;
+                                    right: 8px;
+                                    background-color: #000;
+                                    transform: rotate(45deg);
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+                .contentbox_3 {
+                    width: 75%;
+                    .title {
+                        margin-bottom: 10px;
+                        padding-left: 33px;
+                        h2 {
+                            font-size: 24px;
+                            color: #683b28;
+                            font-weight: 700;
+                        }
+                        span {
+           
+                            a {
+                                color: #c3ac9f;
+                                font-size: 14px;
+                                text-align: left;
+                                float: right;
+                                font-weight: 700;
+                                transition: all 0.2s;
+                                &:hover {
+                                    color: #000;
+                                }                                
+                            }
+                        }
+                    }
+                    .content {
+                        ul {
+                            display: flex;
+                            flex-wrap: wrap;
+                            li {
+                                width: 46%;
+                                margin-left: 33.9941px;
+  
+                                border-bottom: 1px solid #ccbbaf;
+                                a {
+                                    padding: 12px 0;
+                                    color: #c2ac9d;
+                                    font-size: 15px;
+                                    float: left;
+                                    &:hover {
+                                        color: #563320;
+                                    }
+                                }
+                                span {
+                                    padding: 12px 0;
+                                    color: #c2ac9d;
+                                    font-size: 15px;
+                                    float: right;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #section10 {
+            width: 100%;
+            border-bottom: 1px solid #ffffff4d;
+            background-color: #563320;
+            .container {
+                margin: 0 300px;
+                display: flex;
+                .left_list {
+                    width: 100%;
+                    align-items: center;
+                    text-align: center;
+                    justify-content: start;
+                    display: flex;
+                    ul {
+                        display: flex;
+                        li {
+                            border-left: 1px solid rgba(255, 255, 255, 0.5);
+                            a {
+                                margin: 0 15px;
+                                font-size: 15px;
+                                color: #fff;
+                                text-align: center;
+                            }
+                    
+                        }
+                    }
+                }
+                .right_sns {
+                    display: flex;
+
+                    a {
+                        img {
+                            width: 35px;
+                            margin: 0 10px 0 0;
+                        }
+                    }
+                }   
+            }
+        }
+    }
+    #footer {
+        width: 100%;
+        padding: 25px 0 45px 0;
+        background-color: #563320;
+        .container {
+            position: relative;
+            margin: 0 300px;
+            .txt-box {
+                line-height: 24px;
+                color: #d7cdc6;
+                font-size: 15px;
+                span {
+                    margin-left: 10px;
+                }
+            }
+            .logo-box {
+                position: absolute;
+                right: 0;
+                top: 0;
+                a {
+                    img {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

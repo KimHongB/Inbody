@@ -1,0 +1,851 @@
+@import url("./fonts.css");
+@import url("./reset.css");
+@import url("./skip.css");
+#wrap {
+  width: 100%;
+  max-width: 1910px;
+  overflow: hidden;
+}
+#wrap #header {
+  width: 100%;
+  width: 100%;
+}
+#wrap #header .title-img {
+  width: 100%;
+  height: 271.297px;
+  position: relative;
+}
+#wrap #header .title-img img {
+  background-size: cover;
+}
+#wrap #header .title-box1 {
+  width: 100%;
+}
+#wrap #header .title-box1 .gap {
+  height: 100%;
+  margin: 0 315px;
+}
+#wrap #header .title-box1 .gap .content {
+  width: 100%;
+  height: 40.5px;
+}
+#wrap #header .title-box1 .gap .content .log {
+  display: flex;
+  float: right;
+}
+#wrap #header .title-box1 .gap .content .log li a {
+  padding: 0 10px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #a7a9ac;
+  transition: all 0.2s;
+  border-right: 1px solid #a7a9ac;
+}
+#wrap #header .title-box1 .gap .content .log li a:hover {
+  color: #683b28;
+}
+#wrap #header .title-box1 .gap .content .log li a.on {
+  color: #683b28;
+}
+#wrap #header .title-box1 .gap .content .log li a::before {
+  content: "";
+  position: absolute;
+  background: #000;
+}
+#wrap #header .title-box2 {
+  width: 100%;
+  height: 47px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#wrap #header .title-box2 .gap {
+  height: 100%;
+  margin: 0 315px;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #header .title-box2 .gap .left-box {
+  width: auto;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-right: 200px;
+}
+#wrap #header .title-box2 .gap .left-box .category {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #header .title-box2 .gap .left-box .category li {
+  position: relative;
+  width: 130px;
+  height: 100%;
+  text-align: center;
+}
+#wrap #header .title-box2 .gap .left-box .category li:first-child a {
+  color: #87553d;
+}
+#wrap #header .title-box2 .gap .left-box .category li .hamberger {
+  display: inline;
+}
+#wrap #header .title-box2 .gap .left-box .category li .hamberger i {
+  position: absolute;
+  left: 0;
+  bottom: 35%;
+  width: 17px;
+  border: 1.5px solid #87553d;
+  display: flex;
+}
+#wrap #header .title-box2 .gap .left-box .category li .hamberger i:nth-child(2) {
+  bottom: 45%;
+}
+#wrap #header .title-box2 .gap .left-box .category li .hamberger i:nth-child(3) {
+  bottom: 55%;
+}
+#wrap #header .title-box2 .gap .left-box .category li a {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 45px;
+  font-family: "Noto Sans KR";
+  color: rgb(128, 130, 133);
+}
+#wrap #header .title-box2 .gap .left-box .category li a:hover {
+  color: #683b28;
+}
+#wrap #header .title-box2 .gap .left-box .category li a.on {
+  color: #683b28;
+}
+#wrap #header .title-box2 .gap .right-box {
+  width: auto;
+  height: 100%;
+  color: #683b28;
+  display: flex;
+  align-items: center;
+}
+#wrap #header .title-box2 .gap .right-box .search {
+  width: 100%;
+  display: flex;
+}
+#wrap #header .title-box2 .gap .right-box .search li > div {
+  width: 230px;
+}
+#wrap #header .title-box2 .gap .right-box .search li > div form {
+  width: 100%;
+}
+#wrap #header .title-box2 .gap .right-box .search li > div form input {
+  width: 100%;
+  height: 30px;
+  background: #f0f0f0 url(../img/search.png) no-repeat 92% 50%;
+  background-size: 20px 20px;
+  color: #333;
+  font-size: 14px;
+  padding: 0 45px 0 20px;
+  border-radius: 15px;
+  border: 0;
+  outline: 0;
+}
+#wrap #header .title-box2 .gap .right-box .search li a img {
+  width: 27px;
+}
+#wrap #main {
+  width: 100%;
+  position: relative;
+}
+#wrap #main #section1 {
+  width: 100%;
+}
+#wrap #main #section1 img {
+  background-size: cover;
+}
+#wrap #main #section2 {
+  width: 100%;
+  margin: 50px 0;
+}
+#wrap #main #section2 .list {
+  display: flex;
+  width: 284px;
+  height: 46px;
+  margin: -50px 324px 0 0;
+  float: right;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#wrap #main #section2 .list:hover {
+  cursor: auto;
+}
+#wrap #main #section2 .list .txt-box {
+  width: 50%;
+  text-align: center;
+  align-items: center;
+}
+#wrap #main #section2 .list .txt-box p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #683b28;
+}
+#wrap #main #section2 .list .list-box {
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+#wrap #main #section2 .list .list-box p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #87553d;
+  font-family: "MontserratR";
+}
+#wrap #main #section2 .list div {
+  padding: 0 0 0 25px;
+}
+#wrap #main #section2 .list div select {
+  border: 0;
+  background-color: #fff;
+}
+#wrap #main #section2 .list div select option p {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  color: #555;
+  line-height: 46px;
+  padding: 0 0 0 55px;
+  text-align: left;
+}
+#wrap #main #section2 .containor {
+  margin: 0 300px;
+}
+#wrap #main #section2 .containor .gap {
+  width: 100%;
+  text-align: center;
+}
+#wrap #main #section2 .containor .gap .title {
+  margin: 0 0 30px 0;
+}
+#wrap #main #section2 .containor .gap .title h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #683b28;
+}
+#wrap #main #section2 .containor .gap .content {
+  width: 100%;
+}
+#wrap #main #section2 .containor .gap .content ul {
+  display: flex;
+}
+#wrap #main #section2 .containor .gap .content ul li {
+  margin: 0 25.594px 30px 0;
+  display: block;
+}
+#wrap #main #section2 .containor .gap .content ul li:last-child {
+  margin-right: 0;
+}
+#wrap #main #section2 .containor .gap .content ul li img {
+  width: 100%;
+}
+#wrap #main #section2 .containor .gap .content ul li .txt-box {
+  margin: 15px 0 0 0;
+  position: relative;
+}
+#wrap #main #section2 .containor .gap .content ul li .txt-box .top-txt {
+  margin: 5px 0 0 0;
+}
+#wrap #main #section2 .containor .gap .content ul li .txt-box .top-txt h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Noto Sans KR";
+  color: #2e2e2e;
+}
+#wrap #main #section2 .containor .gap .content ul li .txt-box .bottom-txt {
+  margin: 0 0 0 5px;
+}
+#wrap #main #section2 .containor .gap .content ul li .txt-box .bottom-txt h1 {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+  color: #683b28;
+  margin: 6px 0 0 5px;
+  font-family: "Noto Sans KR";
+}
+#wrap #main #section2 .containor .gap .content ul li .txt-box .icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#wrap #main #section2 .containor .gap .content ul li .txt-box .icon a img {
+  width: 100%;
+  margin: 0 auto;
+}
+#wrap #main #section3 {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #ebe0d2;
+}
+#wrap #main #section3 .containor {
+  margin: 0 300px;
+}
+#wrap #main #section3 .containor .gap {
+  width: 100%;
+}
+#wrap #main #section3 .containor .gap .title {
+  margin: 0 0 30px 0;
+  display: flex;
+  justify-content: center;
+}
+#wrap #main #section3 .containor .gap .title h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #683b28;
+}
+#wrap #main #section3 .containor .gap .title span {
+  position: absolute;
+  right: 16%;
+  margin: 0 0 0 30px;
+}
+#wrap #main #section3 .containor .gap .title span a {
+  color: #939598;
+  font-size: 16px;
+  line-height: 45px;
+}
+#wrap #main #section3 .containor .gap .title span a:hover {
+  color: #000;
+}
+#wrap #main #section3 .containor .gap .content {
+  width: 100%;
+}
+#wrap #main #section3 .containor .gap .content ul {
+  display: flex;
+}
+#wrap #main #section3 .containor .gap .content ul li {
+  margin: 0 25.594px 30px 0;
+  display: block;
+}
+#wrap #main #section3 .containor .gap .content ul li:last-child {
+  margin-right: 0;
+}
+#wrap #main #section3 .containor .gap .content ul li img {
+  width: 100%;
+}
+#wrap #main #section3 .containor .gap .content ul li .txt-box {
+  margin: 15px 0 0 0;
+  position: relative;
+}
+#wrap #main #section3 .containor .gap .content ul li .txt-box .top-txt {
+  margin: 5px 0 0 0;
+}
+#wrap #main #section3 .containor .gap .content ul li .txt-box .top-txt h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Noto Sans KR";
+  color: #2e2e2e;
+}
+#wrap #main #section3 .containor .gap .content ul li .txt-box .bottom-txt {
+  margin: 0 0 0 5px;
+}
+#wrap #main #section3 .containor .gap .content ul li .txt-box .bottom-txt h1 {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+  color: #683b28;
+  margin: 6px 0 0 5px;
+  font-family: "Noto Sans KR";
+}
+#wrap #main #section3 .containor .gap .content ul li .txt-box .icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#wrap #main #section3 .containor .gap .content ul li .txt-box .icon a img {
+  width: 100%;
+  margin: 0 auto;
+}
+#wrap #main #section4 {
+  width: 100%;
+  padding: 50px 0;
+}
+#wrap #main #section4 .containor {
+  margin: 0 300px;
+}
+#wrap #main #section4 .containor .gap {
+  width: 100%;
+  text-align: center;
+}
+#wrap #main #section4 .containor .gap .title {
+  margin: 0 0 30px 0;
+  display: flex;
+  justify-content: center;
+}
+#wrap #main #section4 .containor .gap .title h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #683b28;
+}
+#wrap #main #section4 .containor .gap .title span {
+  position: absolute;
+  right: 16%;
+  margin: 0 0 0 30px;
+}
+#wrap #main #section4 .containor .gap .title span a {
+  color: #939598;
+  font-size: 16px;
+  line-height: 45px;
+}
+#wrap #main #section4 .containor .gap .title span a:hover {
+  color: #000;
+}
+#wrap #main #section4 .containor .gap .content {
+  width: 100%;
+}
+#wrap #main #section4 .containor .gap .content ul {
+  display: flex;
+}
+#wrap #main #section4 .containor .gap .content ul li {
+  margin: 0 25.594px 30px 0;
+  display: block;
+}
+#wrap #main #section4 .containor .gap .content ul li:last-child {
+  margin-right: 0;
+}
+#wrap #main #section4 .containor .gap .content ul li img {
+  width: 100%;
+}
+#wrap #main #section4 .containor .gap .content ul li .txt-box {
+  margin: 15px 0 0 0;
+  position: relative;
+}
+#wrap #main #section4 .containor .gap .content ul li .txt-box .top-txt {
+  margin: 5px 0 0 0;
+}
+#wrap #main #section4 .containor .gap .content ul li .txt-box .top-txt h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Noto Sans KR";
+  color: #2e2e2e;
+}
+#wrap #main #section4 .containor .gap .content ul li .txt-box .bottom-txt {
+  margin: 0 0 0 5px;
+}
+#wrap #main #section4 .containor .gap .content ul li .txt-box .bottom-txt h1 {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+  color: #683b28;
+  margin: 6px 0 0 5px;
+  font-family: "Noto Sans KR";
+}
+#wrap #main #section4 .containor .gap .content ul li .txt-box .icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#wrap #main #section4 .containor .gap .content ul li .txt-box .icon a img {
+  width: 100%;
+  margin: 0 auto;
+}
+#wrap #main #section5 {
+  width: 100%;
+}
+#wrap #main #section5 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #main #section6 {
+  width: 100%;
+  padding: 60px 0;
+}
+#wrap #main #section6 .containor {
+  margin: 0 300px;
+}
+#wrap #main #section6 .containor .gap {
+  width: 100%;
+  text-align: center;
+}
+#wrap #main #section6 .containor .gap .title {
+  margin: 0 0 30px 0;
+  display: flex;
+  justify-content: center;
+}
+#wrap #main #section6 .containor .gap .title h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #683b28;
+}
+#wrap #main #section6 .containor .gap .title span {
+  position: absolute;
+  right: 16%;
+  margin: 0 0 0 30px;
+}
+#wrap #main #section6 .containor .gap .title span a {
+  color: #939598;
+  font-size: 16px;
+  line-height: 45px;
+}
+#wrap #main #section6 .containor .gap .title span a:hover {
+  color: #000;
+}
+#wrap #main #section6 .containor .gap .post {
+  width: 100%;
+}
+#wrap #main #section6 .containor .gap .post ul {
+  display: flex;
+}
+#wrap #main #section6 .containor .gap .post ul li {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d4d5d7;
+  transition: all 0.2s;
+}
+#wrap #main #section6 .containor .gap .post ul li a {
+  display: flex;
+  font-size: 20px;
+  transition: all 0.2s;
+  color: #2e2e2e;
+  width: 100%;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+#wrap #main #section6 .containor .gap .post ul li a:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #563320;
+}
+#wrap #main #section6 .containor .gap .content {
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+#wrap #main #section6 .containor .gap .content ul {
+  display: flex;
+}
+#wrap #main #section6 .containor .gap .content ul li {
+  margin: 0 25.594px 30px 0;
+  display: block;
+}
+#wrap #main #section6 .containor .gap .content ul li:last-child {
+  margin-right: 0;
+}
+#wrap #main #section6 .containor .gap .content ul li img {
+  width: 300PX;
+}
+#wrap #main #section6 .containor .gap .content ul li .txt-box {
+  position: relative;
+  margin: 15px 0 0 0;
+}
+#wrap #main #section6 .containor .gap .content ul li .txt-box .top-txt {
+  margin: 5px 0 0 0;
+}
+#wrap #main #section6 .containor .gap .content ul li .txt-box .top-txt h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Noto Sans KR";
+  color: #2e2e2e;
+}
+#wrap #main #section6 .containor .gap .content ul li .txt-box .bottom-txt {
+  margin: 0 0 0 5px;
+}
+#wrap #main #section6 .containor .gap .content ul li .txt-box .bottom-txt h1 {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+  color: #683b28;
+  font-family: "Noto Sans KR";
+}
+#wrap #main #section6 .containor .gap .content ul li .txt-box .icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#wrap #main #section6 .containor .gap .content ul li .txt-box .icon a img {
+  width: 100%;
+  margin: 0 auto;
+}
+#wrap #main #section7 {
+  width: 100%;
+  padding: 50px 0;
+}
+#wrap #main #section7 .container {
+  margin: 0 300px;
+}
+#wrap #main #section7 .container .instar {
+  margin: 0 0 40px 0;
+  display: flex;
+}
+#wrap #main #section7 .container .instar img {
+  margin: 0 15px 0 0;
+  padding-bottom: 10px;
+  width: 36px;
+}
+#wrap #main #section7 .container .instar h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #683b28;
+}
+#wrap #main #section7 .container .instar h2 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #683b28;
+}
+#wrap #main #section7 .container .instar span {
+  position: absolute;
+  right: 16%;
+}
+#wrap #main #section7 .container .instar span a {
+  color: #939598;
+  font-size: 16px;
+  line-height: 45px;
+}
+#wrap #main #section7 .container .instar span a:hover {
+  color: #000;
+}
+#wrap #main #section8 {
+  width: 100%;
+  padding: 0 0 60px 0;
+}
+#wrap #main #section8 .container {
+  margin: 0 300px;
+}
+#wrap #main #section8 .container .gap {
+  text-align: center;
+}
+#wrap #main #section8 .container .gap .title {
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: 40px;
+}
+#wrap #main #section8 .container .gap .title img {
+  margin-right: 15px;
+  padding-bottom: 5px;
+  width: 36px;
+}
+#wrap #main #section8 .container .gap .title h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #683b28;
+}
+#wrap #main #section8 .container .gap .content {
+  width: 100%;
+}
+#wrap #main #section8 .container .gap .content ul {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+#wrap #main #section8 .container .gap .content ul li {
+  margin: 0 0 30px 3%;
+}
+#wrap #main #section8 .container .gap .content ul li:first-child {
+  margin-left: 0;
+}
+#wrap #main #section8 .container .gap .content ul li a {
+  width: 16.6666666667%;
+}
+#wrap #main #section8 .container .gap .content ul li a img {
+  width: 100%;
+}
+#wrap #main #section9 {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #f5f3ee;
+}
+#wrap #main #section9 .container {
+  margin: 0 300px;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #main #section9 .container .contentbox_1 {
+  width: 15%;
+}
+#wrap #main #section9 .container .contentbox_1 .call_number h2 {
+  margin-bottom: 10px;
+  color: #683b28;
+  font-size: 24px;
+  font-weight: 700;
+}
+#wrap #main #section9 .container .contentbox_1 .call_number h1 {
+  font-size: 36px;
+  color: #87553d;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#wrap #main #section9 .container .contentbox_1 .call_number span {
+  font-size: 15px;
+  color: #C4B09F;
+}
+#wrap #main #section9 .container .contentbox_2 {
+  width: 14%;
+  padding: 48px 0 0 0;
+}
+#wrap #main #section9 .container .contentbox_2 ul {
+  padding-left: 33px;
+}
+#wrap #main #section9 .container .contentbox_2 ul li {
+  display: flex;
+  margin: 0 0 10px 0;
+}
+#wrap #main #section9 .container .contentbox_2 ul li:nth-of-type(1) a {
+  color: #fff;
+  background-color: #87553D;
+}
+#wrap #main #section9 .container .contentbox_2 ul li a {
+  width: 180px;
+  position: relative;
+  font-size: 16px;
+  padding: 12px;
+  border: 2px solid #87553D;
+  border-radius: 5px;
+  color: #87553d;
+}
+#wrap #main #section9 .container .contentbox_2 ul li a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 12px;
+  top: 11px;
+  right: 8px;
+  background-color: #000;
+  transform: rotate(-45deg);
+}
+#wrap #main #section9 .container .contentbox_2 ul li a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 12px;
+  top: 18px;
+  right: 8px;
+  background-color: #000;
+  transform: rotate(45deg);
+}
+#wrap #main #section9 .container .contentbox_3 {
+  width: 75%;
+}
+#wrap #main #section9 .container .contentbox_3 .title {
+  margin-bottom: 10px;
+  padding-left: 33px;
+}
+#wrap #main #section9 .container .contentbox_3 .title h2 {
+  font-size: 24px;
+  color: #683b28;
+  font-weight: 700;
+}
+#wrap #main #section9 .container .contentbox_3 .title span a {
+  color: #c3ac9f;
+  font-size: 14px;
+  text-align: left;
+  float: right;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+#wrap #main #section9 .container .contentbox_3 .title span a:hover {
+  color: #000;
+}
+#wrap #main #section9 .container .contentbox_3 .content ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#wrap #main #section9 .container .contentbox_3 .content ul li {
+  width: 46%;
+  margin-left: 33.9941px;
+  border-bottom: 1px solid #ccbbaf;
+}
+#wrap #main #section9 .container .contentbox_3 .content ul li a {
+  padding: 12px 0;
+  color: #c2ac9d;
+  font-size: 15px;
+  float: left;
+}
+#wrap #main #section9 .container .contentbox_3 .content ul li a:hover {
+  color: #563320;
+}
+#wrap #main #section9 .container .contentbox_3 .content ul li span {
+  padding: 12px 0;
+  color: #c2ac9d;
+  font-size: 15px;
+  float: right;
+}
+#wrap #main #section10 {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3019607843);
+  background-color: #563320;
+}
+#wrap #main #section10 .container {
+  margin: 0 300px;
+  display: flex;
+}
+#wrap #main #section10 .container .left_list {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: start;
+  display: flex;
+}
+#wrap #main #section10 .container .left_list ul {
+  display: flex;
+}
+#wrap #main #section10 .container .left_list ul li {
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+#wrap #main #section10 .container .left_list ul li a {
+  margin: 0 15px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+#wrap #main #section10 .container .right_sns {
+  display: flex;
+}
+#wrap #main #section10 .container .right_sns a img {
+  width: 35px;
+  margin: 0 10px 0 0;
+}
+#wrap #footer {
+  width: 100%;
+  padding: 25px 0 45px 0;
+  background-color: #563320;
+}
+#wrap #footer .container {
+  position: relative;
+  margin: 0 300px;
+}
+#wrap #footer .container .txt-box {
+  line-height: 24px;
+  color: #d7cdc6;
+  font-size: 15px;
+}
+#wrap #footer .container .txt-box span {
+  margin-left: 10px;
+}
+#wrap #footer .container .logo-box {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#wrap #footer .container .logo-box a img {
+  margin: 0 auto;
+}
